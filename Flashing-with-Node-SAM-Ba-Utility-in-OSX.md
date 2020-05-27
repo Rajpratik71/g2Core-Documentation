@@ -11,7 +11,7 @@ This will install node version 6.
 
 ## Getting node-sam-ba
 Next we use git to download node-sam-ba like the screen shot below:<br>
-`git clone https://github.com/synthetos/node-sam-ba.git`
+`git clone --depth 1 https://github.com/synthetos/node-sam-ba.git`
 <br><br>
 ![](https://c1.staticflickr.com/5/4388/36654186324_b987109e4c_c.jpg)
 

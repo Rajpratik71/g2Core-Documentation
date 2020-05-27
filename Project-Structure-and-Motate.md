@@ -10,7 +10,7 @@ The g2core project consists of two code bases: **g2Core**, and **Motate**.
 
 The directory structure of the g2Core project in brief:
 
-- `./` - *Top level* the directory resulting from a git clone
+- `./` - *Top level* the directory resulting from a git clone --depth 1
   - `g2core/` - contains all of the code of the g2Core firmware, excluding what directly deals with the hardware.
     - `board/` - contains all of the board-specific code that is used to inform the rest of the code about available hardware resources, such as how many motor drivers (and what type) , serial ports, USB interfaces, etc. are available.
       - Each directory inside the `board` directory is the name of a board, and contains the code necessary for that hardware.

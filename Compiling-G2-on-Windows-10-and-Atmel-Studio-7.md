@@ -43,9 +43,9 @@ There is more than one way to clone the Git repository.
 - Use Github Windows app
 
 #### Cloning the Git Repository - Direct Clone
-If you already have Git on your host machine (i.e. you are on Windows and already have git credentials or are running a VMWare Windows instance and have git credentials on the host) you can simply do a git clone. We use the ssh form as in our experience it's more troublefree than the http form. Open a terminal window and navigate to the parent directory in which you want to install the `g2` github repo. Type:
+If you already have Git on your host machine (i.e. you are on Windows and already have git credentials or are running a VMWare Windows instance and have git credentials on the host) you can simply do a git clone --depth 1. We use the ssh form as in our experience it's more troublefree than the http form. Open a terminal window and navigate to the parent directory in which you want to install the `g2` github repo. Type:
 
-      git clone git@github.com:synthetos/g2.git
+      git clone --depth 1 git@github.com:synthetos/g2.git
       git submodule update --init
       git config fetch.recurseSubmodules on-demand
 

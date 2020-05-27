@@ -16,7 +16,7 @@ as of now, *master* branch is very outdated. There's no stable version available
 ```
 mkdir -p ~/src/github.com/synthetos
 cd ~/src/github.com/synthetos
-git clone https://github.com/synthetos/g2 g2
+git clone --depth 1 https://github.com/synthetos/g2 g2
 cd ./g2
 git checkout edge
 ```
@@ -24,7 +24,7 @@ git checkout edge
 To clone the edge branch directly you can run the following command:
 
 ```
-git clone -b edge git@github.com:synthetos/g2.git
+git clone --depth 1 -b edge git@github.com:synthetos/g2.git
 ```
 
 * Build the sources:

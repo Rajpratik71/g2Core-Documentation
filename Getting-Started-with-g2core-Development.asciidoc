@@ -84,7 +84,7 @@ NOTE: You may need to run the above command (without the `--init`) after you pul
 * *Or*, on the command line (Linux, OS X, or Windows) -- requires a working git install (see below in the link:compiling-the-code[compiling section] for how to install git):
 +
 ```bash
-git clone https://github.com/synthetos/g2.git --recursive
+git clone --depth 1 https://github.com/synthetos/g2.git --recursive
 ```
 
 ** Since we use submodules, we need the `--recursive` option.
